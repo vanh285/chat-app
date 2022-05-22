@@ -1,0 +1,54 @@
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: #131324;
+  height: 100vh;
+  width: 100vw;
+}
+.loader {
+  max-inline-size: 100%;
+  width: 50%;
+}
+.titleContainer h1 {
+  color: white;
+}
+
+.avatars {
+  display: flex;
+  gap: 2rem;
+}
+.avatar {
+  border: 0.4rem solid transparent;
+
+  padding: 0.4rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.avatar img {
+  height: 6rem;
+}
+.avatar-selected {
+  border: 0.4rem solid #4e0eff;
+}
+.submitButton {
+  background-color: #997af0;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.submitButton:hover {
+  background-color: #4e0eff;
+  transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,14 @@
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 0.5rem;
+}
+.welcomeContainer img {
+  height: 20rem;
+}
+.welcomeContainer span {
+  color: #4e00ff;
+}
